@@ -1,0 +1,228 @@
+h1 {
+  text-align: center;
+  color: rgb(94, 19, 165);
+  text-shadow: 6px 6px 10px rgb(73, 70, 70);
+}
+.d1 {
+  display: flex;
+  gap: 3rem;
+}
+.table1,
+.table1 tr,
+.table1 tr th,
+.table1 tr td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left: 5rem;
+}
+.table2,
+.table2 tr,
+.table2 tr th,
+.table2 tr td {
+  border: 3px solid rgb(4, 165, 26);
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left: 5rem;
+}
+.table2 tr:nth-child(even) {
+  background-color: rgb(145, 243, 47);
+}
+.table3,
+.table3 tr,
+.table3 tr th,
+.table3 tr td {
+  border: 3px solid rgb(255, 0, 76);
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left: 5rem;
+  border-left: none;
+  border-right: none;
+}
+.d2 {
+  display: flex;
+  gap: 3rem;
+}
+.table4,
+.table4 tr,
+.table4 tr th,
+.table4 tr td {
+  border: 3px solid rgb(0, 52, 95);
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.table4 tr th {
+  background-color: rgb(19, 19, 200);
+  color: rgb(255, 255, 255);
+  border-left: none;
+  border-right: none;
+}
+.table4 tr:nth-child(even) {
+  background-color: rgb(144, 251, 251);
+}
+.table5,
+.table5 tr,
+.table5 tr th,
+.table5 tr td {
+  border: 3px solid rgb(212, 82, 6);
+  border-collapse: collapse;
+  padding: 10px;
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+.table5 tr th {
+  background-color: rgb(255, 166, 0);
+  color: rgb(53, 40, 40);
+  border-left: none;
+  border-right: none;
+}
+.table5 tr td:first-child {
+  background-color: rgb(255, 166, 0);
+  color: rgb(32, 30, 30);
+}
+
+.table6,
+.table6 tr,
+.table6 tr th,
+.table6 tr td {
+  border: 3px solid rgb(124, 67, 189);
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+.table6 tr:nth-child(2) {
+  border-top: 5px solid rgb(99, 5, 116);
+}
+.d3 {
+  display: flex;
+  gap: 3rem;
+}
+.table7,
+.table7 tr,
+.table7 tr th,
+.table7 tr td {
+  border-collapse: collapse;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  padding: 10px;
+}
+.table7 tr:nth-child(2) {
+  border-top: 3px solid rgb(179, 0, 74);
+}
+.table7 tr td:nth-child(2),
+.table7 tr th:nth-child(2) {
+  border-left: 3px solid rgb(179, 0, 74);
+}
+.table7 tr:nth-child(even) {
+  background-color: rgb(168, 66, 121);
+}
+.table7 td:first-child {
+  background-color: snow;
+}
+.table8,
+.table8 tr,
+.table8 tr th,
+.table8 tr td {
+  border: 3px solid rgb(246, 241, 246);
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left: 7rem;
+  margin-top: 2rem;
+  border-right: none;
+  border-left: none;
+  background-color: pink;
+}
+.table8 tr td:nth-child(2),
+.table8 tr th:nth-child(2) {
+  border-left: 2px solid rgb(168, 100, 128);
+}
+.table8 tr:nth-child(2) {
+  border-top: 5px solid rgb(168, 100, 128);
+}
+.table9,
+.table9 tr,
+.table9 tr th,
+.table9 tr td {
+  border: 3px solid rgba(1, 128, 100, 0.726);
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  border-left: none;
+  border-right: none;
+}
+.table9 tr:nth-child(even) {
+  background-color: rgba(171, 219, 170, 0.705);
+}
+.table9 tr:nth-child(3),
+.table9 tr:nth-child(4),
+.table9 tr:nth-child(5) {
+  border-top: 5px solid rgb(255, 255, 255);
+}
+.d4 {
+  display: flex;
+  gap: 3rem;
+}
+.table10,
+.table10 tr,
+.table10 tr th,
+.table10 tr td {
+  border-collapse: collapse;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  padding: 10px;
+}
+.table10 tr:nth-child(2) {
+  border-top: 4px solid rgb(99, 5, 116);
+}
+.table10 tr td:nth-child(2),
+.table10 tr th:nth-child(2) {
+  border-left: 3px solid rgb(99, 5, 116);
+}
+.table10 tr:nth-child(even) {
+  background-color: rgba(202, 95, 221, 0.849);
+}
+.table10 td:first-child {
+  background-color: snow;
+}
+.table10 tr td:nth-child(5) {
+  border-right: 3px solid rgb(99, 5, 116);
+}
+
+.table10 tr:nth-child(5) {
+  border-bottom: 4px solid rgb(99, 5, 116);
+}
+.table11,
+.table11 tr,
+.table11 tr th,
+.table11 tr td {
+  border: 3px solid rgb(248, 6, 6);
+  border-collapse: collapse;
+  padding: 10px;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+.table11 tr:nth-child(2) {
+  border-top: 5px solid rgb(139, 4, 4);
+}
+.table11 tr:nth-child(even) {
+  background-color: rgba(223, 136, 136, 0.794);
+}
+.table12,
+.table12 tr,
+.table12 tr th,
+.table12 tr td {
+  border: 3px solid rgb(1, 0, 83);
+  border-collapse: collapse;
+  padding: 10px;
+  margin-top: 2rem;
+  margin-left: 4rem;
+  border-left: none;
+  border-right: none;
+}
+.table12 tr:nth-child(even) {
+  background-color: rgba(74, 73, 170, 0.726);
+}
